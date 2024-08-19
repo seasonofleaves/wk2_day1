@@ -1,0 +1,12 @@
+.reset {
+  justify-content: flex-end;
+}
+
+.reset-btn {
+  background-color: rgba(255, 0, 0, 0.427);
+  outline-color: red;
+  padding-left: 2em;
+  padding-right: 2em;
+  align-content: center;
+  font-size: large;
+}
