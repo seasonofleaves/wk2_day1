@@ -1,12 +1,52 @@
+/* .hero-bg {
+  background-image: url(https://images.sidearmdev.com/convert?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2fathletics.csi.edu%2fimages%2f2020%2f9%2f3%2f_CX23143.jpg&type=webp);
+  background-position: center;
+  background-size: cover;
+} */
+
 .reset {
   justify-content: flex-end;
 }
 
+.point-btns {
+  justify-content: center;
+}
+
+.score {
+  background-color: blue;
+  border-color: blue;
+  text-align: center;
+  font-size: 50px;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+.teams {
+  text-align: center;
+  font-size: 50px;
+}
+
+
 .reset-btn {
   background-color: rgba(255, 0, 0, 0.427);
-  outline-color: red;
+  color: rgb(148, 0, 0);
+  font-weight: 500;
+  /* border-width: 2px; */
   padding-left: 2em;
   padding-right: 2em;
   align-content: center;
   font-size: large;
+}
+
+.point-btn {
+  background-color: rgba(70, 70, 255, 0.588);
+  color: rgb(0, 0, 110);
+  font-weight: 500;
+  /* border-width: 2px; */
+  padding-left: 1em;
+  padding-right: 1em;
+  align-content: center;
+  font-size: larger;
 }

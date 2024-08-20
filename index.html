@@ -10,37 +10,41 @@
   <title>Score Board</title>
 </head>
 
-<body>
+<body class="hero-bg">
 
-  <section class="container-fluid">
+  <section class="container-flow">
 
     <section class="row reset">
       <div class="col-2">
-        <div class="btn btn-danger reset-btn">RESET</div>
+        <div class="btn reset-btn my-4">RESET</div>
       </div>
     </section>
 
-    <section class="row">
-      <div class="col-6">
-        <span>HOME</span>
-        <div id="homePoints">0</div>
+    <section class="row point-btns box">
+      <div class="col-4 teams">
+        <span class="teams">HOME</span>
+        <div id="homePoints" class="score">0</div>
       </div>
 
-      <div class="col-6">
+      <div class="col-4 teams">
 
         <span>AWAY</span>
-        <div id="awayPoints">0</div>
+        <div id="awayPoints" class="score">0</div>
       </div>
     </section>
 
-    <section class="row">
-      <div class="col-6">
-        <div onclick="plusOne()" class="btn btn-outline-dark">+1 HOME</div>
-        <div onclick="plusThree()" class="btn btn-outline-dark">+3 HOME</div>
+    <section class="row point-btns">
+      <div class="col-2">
+        <div onclick="plusOne()" class="btn point-btn">HOME +1</div>
       </div>
-      <div class="col-6">
-        <div onclick="awayOne()" class="btn btn-outline-dark">+1 AWAY</div>
-        <div onclick="awayThree()" class="btn btn-outline-dark">+3 AWAY</div>
+      <div class="col-2">
+        <div onclick="plusThree()" class="btn point-btn">HOME +3</div>
+      </div>
+      <div class="col-2">
+        <div onclick="awayOne()" class="btn point-btn">AWAY +1</div>
+      </div>
+      <div class="col-2">
+        <div onclick="awayThree()" class="btn point-btn">AWAY +3</div>
       </div>
     </section>
 
